@@ -1,0 +1,67 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: rgb(41, 4, 143); /* Fundo roxo */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 12px; /* Contornos arredondados */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 40px; /* Tamanho da fonte */
+}
+
+h2 {
+    color: rgb(138, 4, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mathjax-left {
+    display: block;
+    text-align: left;
+    margin-left: 0; /* Garante que não haja margem à esquerda */
+}
+
+/* Estilo para todos os botões */
+button {
+    background-color: purple; /* Fundo roxo */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 12px; /* Contornos arredondados */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Mão ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave para o fundo */
+}
+
+button:hover {
+    background-color: darkviolet; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para os campos de entrada */
+input {
+    width: 100%; /* Ajusta a largura para preencher o espaço disponível */
+    max-width: 400px; /* Define uma largura máxima para o campo */
+    padding: 10px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding na largura total do campo */
+}
+
+/* Estilo para a classe resultado */
+.resultado {
+    background-color: lightgray; /* Fundo cinza claro */
+    border: 2px solid purple; /* Borda roxa */
+    color: darkviolet; /* Cor da fonte */
+    padding: 2px 4px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    display: none
+}
+
+#output {
+    color: rgb(255, 255, 255);
+}
+#divprof {
+    color: rgb(131, 131, 134); 
+    font-family:Arial, Helvetica, sans-serif
+}
