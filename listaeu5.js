@@ -55,7 +55,13 @@ const q6 = () => {
 }
 
 // Q7. Programa para retornar a lista de todos os números primos menores que um número natural n qualquer
-
+const q7 = (n) => {
+  const intervaloNaturais = range(0, n, 1)
+  const res = intervaloNaturais.filter((x) => {
+    range(2, Math.sqrt(x), 1).map(y => x % 2 === 0? true : false)
+  })
+  return res
+}
 
 // Q8. Programa para retornar os n primeiros algarismos de um número inteiro qualquer
 
