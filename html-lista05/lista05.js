@@ -170,9 +170,9 @@ const nletras = (numero) => {
     return listagem.length
 }
 
-// const extensostr = extenso(999)
-// log(extensostr)
-// log(nletras(extensostr))
+const extensostr = extenso(999)
+console.log(extensostr)
+console.log(nletras(extensostr))
 
 const q9 = () => {
     const entrada = parseInt(document.getElementById("q9input").value)
